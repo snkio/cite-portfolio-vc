@@ -5,8 +5,16 @@
 	padding: 0;
 }
 
+body {
+	font-family: "Roboto", sans-serif;
+}
+
 h2 {
 	font-size: 35px;
+}
+
+h3 {
+	font-size: 20px;
 }
 
 .container {
@@ -229,7 +237,7 @@ h2 {
 	text-align: center;
 	margin: 0 auto;
 	justify-content: center;
-	gap: 30px;
+	gap: 60px;
 }
 
 .footer-sec {
@@ -240,6 +248,7 @@ h2 {
 .footer-con a {
 	color: #fff;
 	text-decoration: none;
+	text-align: center;
 }
 
 .footer-con a:hover {
@@ -249,10 +258,14 @@ h2 {
 }
 
 .footer-con p {
-	display: flex;
+	vertical-align: middle;
+	text-align: center;
 	padding-top: 10px;
-	align-items: center;
-	gap: 5px;
+}
+
+.footer-con img {
+	vertical-align: middle;
+	margin-right: 5px;
 }
 
 .footer-f {
